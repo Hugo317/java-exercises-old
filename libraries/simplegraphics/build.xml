@@ -18,7 +18,7 @@
 
     <!-- Compiles the source code -->
     <target name="compile" description="Compiles the code" depends="prepare">
-        <javac includeantruntime="false" srcdir="${src.dir}" destdir="${classes.dir}" />
+        <javac source="8" target="8" includeantruntime="false" srcdir="${src.dir}" destdir="${classes.dir}" />
     </target>
 
     <!-- Creates a JAR file -->
