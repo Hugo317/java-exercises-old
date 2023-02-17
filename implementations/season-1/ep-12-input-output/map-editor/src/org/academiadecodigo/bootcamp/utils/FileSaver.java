@@ -5,7 +5,7 @@ import java.io.*;
 public class FileSaver {
 
     // change this to "" before running the build!
-    private String prefix = "resources/";
+    public static final String prefix = "";
 
 
     public void save(String gridToText){

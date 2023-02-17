@@ -28,9 +28,9 @@
     </target>
 
     <target name="jarfile" description="Archives the code" depends="compile">
-        <jar destfile="build/MapEditor.jar" basedir="build/classes">
+        <jar destfile="build/${project.name}.jar" basedir="build/classes">
             <manifest>
-                <attribute name="Main-Class" value="org.academiadecodigo.bootcamp.Main" />
+                <attribute name="Main-Class" value="${main.class}" />
                 <attribute name="Class-Path" value="${lib.dir}"/>
             </manifest>
             <zipgroupfileset dir="${lib.dir}"/>
