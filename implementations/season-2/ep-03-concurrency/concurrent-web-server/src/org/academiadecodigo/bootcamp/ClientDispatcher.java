@@ -1,53 +1,24 @@
 package org.academiadecodigo.bootcamp;
 
 import java.io.*;
-import java.net.ServerSocket;
 import java.net.Socket;
 
-
-public class WebServer {
+public class ClientDispatcher implements Runnable{
 
     public static final String DOCUMENT_ROOT = "www/";
-    public static final int DEFAULT_PORT = 8099;
+    private Socket browserConnection;
 
-
-    public static void main(String[] args) {
-
-        WebServer webServer = new WebServer();
-        webServer.serve();
-
+    public ClientDispatcher(Socket browserConnection) {
+        this.browserConnection = browserConnection;
     }
 
-    private void serve() {
-
-        // try-with-resources will auto close when the try block is exited
-        try (ServerSocket serverSocket = new ServerSocket(DEFAULT_PORT)) {
-
-            listen(serverSocket);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+    @Override
+    public void run() {
+        System.out.println("Connection established!");
+        dispatch(browserConnection);
     }
 
-    private void listen(ServerSocket serverSocket) {
 
-        while (true) {
-
-            try (Socket browserConnection = serverSocket.accept()) {
-
-
-
-                // Accept connections from browser
-                dispatch(browserConnection);
-
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-        }
-    }
 
     private void dispatch(Socket browserConnection) {
 
@@ -159,6 +130,4 @@ public class WebServer {
 
         return builder.toString();
     }
-
-
 }
