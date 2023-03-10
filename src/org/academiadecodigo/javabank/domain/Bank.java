@@ -29,6 +29,15 @@ public class Bank {
     public Customer getCustomer(int id) {
         return customers.get(id);
     }
+    int currentCustomerId = 0;
+
+    public int getCurrentCustomerId() {
+        return currentCustomerId;
+    }
+
+    public void setCurrentCustomerId(int currentCustomerId) {
+        this.currentCustomerId = currentCustomerId;
+    }
 
     /**
      * Gets the ids of the bank customers

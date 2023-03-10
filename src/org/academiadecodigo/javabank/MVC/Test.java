@@ -1,15 +1,12 @@
+package org.academiadecodigo.javabank.MVC;
 
-package org.academiadecodigo.javabank;
-
-import org.academiadecodigo.javabank.application.BankApplication;
+import org.academiadecodigo.javabank.MVC.askID.ControllerAskID;
 import org.academiadecodigo.javabank.domain.Bank;
 import org.academiadecodigo.javabank.domain.Customer;
 import org.academiadecodigo.javabank.managers.AccountManager;
 
-public class App {
-
+public class Test {
     public static void main(String[] args) {
-
         Bank bank = new Bank();
         AccountManager accountManager = new AccountManager();
         bank.setAccountManager(accountManager);
@@ -21,8 +18,7 @@ public class App {
         bank.addCustomer(c2);
         bank.addCustomer(c3);
 
-        BankApplication bankApplication = new BankApplication(bank);
-        bankApplication.start();
+        ControllerAskID controllerAskID = new ControllerAskID(bank);
+        controllerAskID.init();
     }
 }
-

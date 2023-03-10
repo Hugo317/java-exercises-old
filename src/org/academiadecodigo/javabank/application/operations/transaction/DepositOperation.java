@@ -39,5 +39,6 @@ public class DepositOperation extends AbstractAccountTransactionOperation {
         if (customer.getAccountIds().contains(accountId)) {
             accountManager.deposit(accountId, amount);
         }
+
     }
 }
