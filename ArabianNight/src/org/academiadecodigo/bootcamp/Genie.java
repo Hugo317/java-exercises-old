@@ -28,10 +28,9 @@ public class Genie {
     }
 
     public Genie createDemon(Genie genie){
-        Genie temp = new Genie();
         if (true == true){
-            temp = new DemonGenie();
+            return (DemonGenie)genie;
         }
-        return temp;
+        return genie;
     }
 }
