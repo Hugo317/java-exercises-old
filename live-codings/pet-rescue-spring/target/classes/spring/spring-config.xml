@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <import resource="pets.xml"/>
+
+    <bean id="friend" class="org.academiadecodigo.bootcamp.rescue.PetOwner">
+        <constructor-arg name="pet" ref="kitty"/>
+        <constructor-arg name="name" value="Bedro"/>
+    </bean>
+
+    <bean id="kitty" class="org.academiadecodigo.bootcamp.rescue.pets.Cat">
+        <constructor-arg name="toy" ref="batata"/>
+    </bean>
+
+    <bean id="doggy" class="org.academiadecodigo.bootcamp.rescue.pets.Dog">
+        <constructor-arg name="toy" ref="batata"/>
+    </bean>
+
+    <bean id="batata" class="org.academiadecodigo.bootcamp.rescue.Toy"/>
+
+
+
+
+
+
+
+</beans>
