@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    transition: all .6s;
+  }
+
+  body {
+    background: linear-gradient(-45deg, #5298ee, #3cc8e7, #07759dd6, #0f59d0);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    
+    height: 100vh;
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: center;
+    font-size:5vh;
+    color: whitesmoke;
+    }
+
+
+  @media screen and (max-width: 800px) {
+    #title { 
+        font-family: 'Delicious Handrawn', cursive;
+        padding-top: auto;
+        color:pink;
+        transform-origin: center;
+        transform: rotate(-90deg) translate(-50vh, 0vw);
+    }
+    .container {
+        visibility: hidden;
+    }
+  }
+  @media  screen and (min-width: 800px) {
+    #title { 
+        padding-top: 45vh;
+    }
+  }
+  @media  screen and (min-width: 1000px) {
+    #title { 
+        padding-top: 45vh;
+        font-size: 10vh;
+    }
+  }
+
+
+
+  #title {
+    font-family: 'Delicious Handrawn', cursive;
+  }
+
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+   
