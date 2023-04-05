@@ -2,10 +2,7 @@ package org.academiadecodigo.bootcamp.services;
 
 import org.academiadecodigo.bootcamp.model.pokemon.Pokemon;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.RollbackException;
-import javax.persistence.TypedQuery;
+import javax.persistence.*;
 import java.util.List;
 
 public class PokemonService {
@@ -54,6 +51,7 @@ public class PokemonService {
 
     }
 
+    @PersistenceUnit
     public void setEmf(EntityManagerFactory emf) {
         this.emf = emf;
     }

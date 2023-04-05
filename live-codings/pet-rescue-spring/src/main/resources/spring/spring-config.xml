@@ -4,11 +4,40 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <import resource="pets.xml"/>
+    <!--<import resource="pets.xml"/>-->
+
+    <!-- normal object factory -->
+    <!--
+    <bean id="rescue" class="org.academiadecodigo.bootcamp.rescue.Rescue"/>
+    <bean id="pet" factory-bean="rescue" factory-method="getANewFriend"/> -->
+
+    <!-- static factory method -->
+    <bean id="pet" class="org.academiadecodigo.bootcamp.rescue.Rescue" factory-method="getANewFriend" scope="prototype"/>
 
     <bean id="friend" class="org.academiadecodigo.bootcamp.rescue.PetOwner">
-        <constructor-arg name="pet" ref="kitty"/>
         <constructor-arg name="name" value="Bedro"/>
+        <property name="pet">
+            <list>
+                <ref bean="pet"/>
+                <ref bean="pet"/>
+                <ref bean="pet"/>
+            </list>
+        </property>
     </bean>
+
+    <bean id="petdb" class="org.academiadecodigo.bootcamp.RescueDB" lazy-init="true"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </beans>

@@ -4,5 +4,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
+    <bean id="kitty" class="org.academiadecodigo.bootcamp.rescue.pets.Cat">
+        <constructor-arg name="toy" ref="toy"/>
+    </bean>
+
+    <bean id="doggy" class="org.academiadecodigo.bootcamp.rescue.pets.Dog">
+        <constructor-arg name="toy" ref="toy"/>
+    </bean>
+
+    <bean id="toy" class="org.academiadecodigo.bootcamp.rescue.Toy"/>
+
+
 
 </beans>

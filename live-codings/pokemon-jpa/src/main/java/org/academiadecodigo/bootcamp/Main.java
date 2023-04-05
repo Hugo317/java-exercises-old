@@ -7,6 +7,8 @@ import org.academiadecodigo.bootcamp.model.pokemon.NormalPokemon;
 import org.academiadecodigo.bootcamp.model.pokemon.Pokemon;
 import org.academiadecodigo.bootcamp.services.PokemonService;
 import org.academiadecodigo.bootcamp.services.TrainerService;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -18,11 +20,12 @@ public class Main {
     public static void main(String[] args) {
 
         /* creating necessary objects */
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");
-        PokemonService pokemonService = new PokemonService();
+        //EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");
+       /* PokemonService pokemonService = new PokemonService();
         TrainerService trainerService = new TrainerService();
 
         /* creating data */
+        /*
         Pokemon p1 = new BabyPokemon();
         p1.setNickname("Tiny Egg");
         p1.setType("Fairy");
@@ -58,14 +61,17 @@ public class Main {
         ash.setPokemons(list);
 
         /* wiring */
+        /*
         pokemonService.setEmf(emf);
-        trainerService.setEmf(emf);
+        trainerService.setEmf(emf);*/
 
         /* only needed to add Trainer object, thanks to cascade */
+        ApplicationContext context = new FileSystemXmlApplicationContext("src/main/resources/spring/spring-config.xml");
+
         trainerService.add(ash);
 
 
-        emf.close();
+        //emf.close();
 
     }
 }

@@ -4,6 +4,7 @@ import org.academiadecodigo.bootcamp.model.Trainer;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceUnit;
 import javax.persistence.RollbackException;
 
 public class TrainerService {
@@ -41,6 +42,7 @@ public class TrainerService {
 
 
 
+    @PersistenceUnit
     public void setEmf(EntityManagerFactory emf) {
         this.emf = emf;
     }
