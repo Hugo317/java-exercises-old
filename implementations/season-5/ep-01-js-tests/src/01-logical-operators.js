@@ -2,7 +2,6 @@
  * logical OR
  */
 exports.or = function(a, b) {
-	return a || b;
 };
 
 /**
