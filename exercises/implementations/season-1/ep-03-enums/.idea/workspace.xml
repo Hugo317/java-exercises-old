@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91a01c9b-a703-43c8-85d3-c857968609a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/academiadecodigo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/academiadecodigo/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KyKB8FdRgPEtLIJBGIcKEVM6iy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.academiadecodigo.Main" />
+      <module name="paper-rock-scissors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.academiadecodigo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91a01c9b-a703-43c8-85d3-c857968609a5" name="Default Changelist" comment="" />
+      <created>1674941245161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674941245161</updated>
+      <workItem from="1674941247330" duration="738000" />
+      <workItem from="1675021427644" duration="218000" />
+      <workItem from="1675073609991" duration="4102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="816" key="GridCell.Tab.0.bottom" timestamp="1675081733548">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1398" height="339" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1674941985908" />
+    <state width="1878" height="816" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1675081733548" />
+    <state width="1878" height="816" key="GridCell.Tab.0.center" timestamp="1675081733547">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1398" height="339" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1674941985908" />
+    <state width="1878" height="816" key="GridCell.Tab.0.center/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1675081733547" />
+    <state width="1878" height="816" key="GridCell.Tab.0.left" timestamp="1675081733546">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1398" height="339" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1674941985907" />
+    <state width="1878" height="816" key="GridCell.Tab.0.left/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1675081733546" />
+    <state width="1878" height="816" key="GridCell.Tab.0.right" timestamp="1675081733547">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1398" height="339" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1674941985908" />
+    <state width="1878" height="816" key="GridCell.Tab.0.right/0.25.1440.875/1440.0.1920.1080@1440.0.1920.1080" timestamp="1675081733547" />
+  </component>
+</project>
